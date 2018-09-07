@@ -23,3 +23,4 @@ for (var i = 0; i < array.length; i++) {
 }
 console.log("Array: " + array);
 console.log("Result: " + arrayResult);
+alert("Open your console to see result");

@@ -1,0 +1,99 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.header-nav {
+  height: 110px;
+  position: fixed;
+  z-index: 800;
+  width: 100%;
+}
+
+.header-menu {
+  line-height: 110px;
+}
+
+.menu {
+  margin: 0;
+  display: inline-block;
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+  font-size: 13px;
+  margin-right: 12px;
+  vertical-align: middle;
+  padding-left: 3px;
+  line-height: 24px;
+}
+
+.menu li a {
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  padding-right: 21px;
+  display: block;
+  color: #ffffff;
+}
+.swiper-slide {
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.absolute-pos {
+  position: absolute !important;
+}
+.phone-image {
+    z-index:100;
+    position: absolute;
+    bottom: -170px;
+    left: 50%;
+    margin-left: -281px;
+}
+.bg-image {
+  width: 100%;
+  z-index: 1;
+}
+.slider-wrapper {
+  height: 100%;
+}
+.image-slide {
+  z-index: 100;
+  height: 100vh;
+  width: 100%;
+}
+.ipad-image {
+  position:relative;
+  left: 210px;
+}
+.scrolled {
+  background-color: rgba(0, 0, 0, 0.87);
+  height: 60px;
+}
+.image-container {
+  background: #efeff0;
+}
+
+.iphone-image {
+    left: 50%;
+    margin-left: -106px;
+    margin-top: 120px;
+    position: absolute;
+    top: 50%;
+}
